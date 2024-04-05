@@ -88,3 +88,8 @@
 2. html에서 head 안에 link태그로 `favicon` href주소 연결하기
 * `<link rel="shortcut icon" href="파비콘.ico 경로" type="image/x-icon">`
 * `<link rel="icon" href="파비콘.ico 경로" type="image/x-icon">`
+## 이미지태그 `img` (inline)
+* `<img src="url"alt="">`
+* 의미전달이 필요한 이미지일 경우 alt="" 사이에 의미를 꼭 넣을것
+* src 이미지 경로 속성의 값으로는 상대경로 방식으로 작성하는 것을 권장
+* inline이기 때문에 block태그인 h나 p와 형제관계에 두려면 블록 안에 묶어야한다.
