@@ -86,5 +86,5 @@
 ## 파비콘 적용 순서
 1. 파비콘 크기로 이미지 다운받거나 편집하기
 2. html에서 head 안에 link태그로 `favicon` href주소 연결하기
-* <link rel="shortcut icon" href="파비콘.ico 경로" type="image/x-icon">
-* <link rel="icon" href="파비콘.ico 경로" type="image/x-icon">
+* `<link rel="shortcut icon" href="파비콘.ico 경로" type="image/x-icon">`
+* `<link rel="icon" href="파비콘.ico 경로" type="image/x-icon">`
