@@ -93,3 +93,15 @@
 * 의미전달이 필요한 이미지일 경우 alt="" 사이에 의미를 꼭 넣을것
 * src 이미지 경로 속성의 값으로는 상대경로 방식으로 작성하는 것을 권장
 * inline이기 때문에 block태그인 h나 p와 형제관계에 두려면 블록 안에 묶어야한다.
+## figure, figcaption 태그
+* 이미지와 글을 하나의 틀로 감쌀때 사용, figcaption은 대상에 대한 정보를 적을 때 사용
+* `<figure>`
+    `<img src="URL" alt="">`
+    `<figcaption>caption</figcaption>`
+`</figure>`
+## video 태그
+* `<video src="동영상경로" autoplay muted loop controls>` 자동재생, 음소거, 반복, 컨트롤러 생성
+* 유튜브에서 영상을 가져올 때
+1. 유튜브에서 음악 선택 후 우클릭해서 소스코드복사 누른다.
+2. 비쥬얼스튜디오에 붙여넣기 하고 링크 뒤에 물음표(?)를 붙인다.
+3. 그 뒤에 autoplay=1&mute=1&loop=1을 붙이면 자동재생, 음소거, 반복재생 되는 영상 넣기 끝.
