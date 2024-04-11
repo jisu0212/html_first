@@ -143,3 +143,17 @@
 * `<article>`,`</article>`
 * 사이트 안에서 독립적으로 구분해 배포하거나 재사용할 수 있는 구획
 * 게시판과 블로그 글, 매거진이나 뉴스 기사 등이 있음
+## ul, ol, li
+* `<ul><li></li></ul>`
+* `<ol><li></li></ol>`
+* ul은 순서가 없는 목록을 나열할 때 사용함
+* ol은 순서가 있는 목록을 나열할 때 사용함
+* li는 ul과 ol 목록 안에서 나열되는 행으로써 사용함
+## details, summary
+* `<details><summary>요약</summary>내용</details>`
+* 설명을 접었다 펼 수 있는 요약 위젯을 만들 수 있음
+## footer, maek, main, time
+* `footer`: 웹페이지 가장 하단에 위치하며 address태그를 사용함
+* `mark` : 내용이 중요해서 하이라이트 한 부분을 나타냄(형광펜 표시)
+* `main` : 문서 `<body>`의 주요 콘텐츠를 나타냄
+* `time` : 시간의 특정 지점 또는 구간을 나타냄, ex) `<time datetime="2024-04-11"></time>`
